@@ -1,6 +1,5 @@
 const Discord = require ("discord.js");
 
-const TOKEN = "NDkwMjcxOTc4OTM1Mjg3ODE4.Dn4Wqw.B7pE6JLdeNwFG5Xi7yzP9npw_3Y";
 const PREFIX = "&"
 
 var fortunes = [
@@ -99,4 +98,4 @@ bot.on("message", function(message) {
     }
 });
 
-bot.login(TOKEN);
+bot.login(process.env.BOT_TOKEN);
