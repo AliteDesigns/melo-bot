@@ -36,6 +36,8 @@ var howgay = [
 
 var bot = new Discord.Client();
 
+bot.user.setGame('&help for help!')
+
 bot.on("message", function(message) {
     console.log(message.content);
 });
